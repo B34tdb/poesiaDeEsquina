@@ -1,5 +1,6 @@
 import React from 'react';
 import './Nav.css'
+import logo from '../../assets/imagens/poesiaDeEsquina.jpeg'
 import { Link } from 'react-router-dom'
 
 const Nav = () =>{
@@ -11,8 +12,8 @@ const Nav = () =>{
         </div>
         <div className="cabecalho-container">
           <Link to="/" className="flex flex--centro">
-            <img className="cabecalho__logo" src={imagem} alt="Logo Doguito"/>
-            <h1 className="cabecalho__titulo">PetShop</h1>
+            <img className="cabecalho__logo" src={logo} alt="Logo Doguito"/>
+            <h1 className="cabecalho__titulo">Poesia Da Esquina</h1>
           </Link>
         </div>
   
